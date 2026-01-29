@@ -113,6 +113,22 @@
     @media (max-width: 600px) {
       .hero h1 {
         font-size: 2.2rem;
+        .product-card {
+  position: relative;
+}
+
+.badge {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  background: #ff6a00;
+  color: #fff;
+  font-size: 0.75rem;
+  font-weight: bold;
+  padding: 6px 12px;
+  border-radius: 20px;
+  text-transform: uppercase;
+}
       }
     }
   </style>
@@ -138,6 +154,8 @@
   <div class="products">
 
     <div class="product-card">
+      <span class="badge">New Drop</span>
+      
       <img src="https://via.placeholder.com/400x400?text=Streetza+Tee" alt="Streetza T-shirt">
       <h3>Streetza Graphic Tee</h3>
       <p>Oversized streetwear fit</p>
